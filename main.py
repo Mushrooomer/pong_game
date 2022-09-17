@@ -30,13 +30,8 @@ while game_is_on:
 
 
     # Detect the collision with top side of the screen
-    if ball.ycor() > 300 or ball.ycor() < -300:
+    if ball.ycor() > 280 or ball.ycor() < -280:
         ball.bounce()
-
-
-
-
-
 
 
 
